@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="rpg.css" />
+    <title>Rpg Fight</title>
+</head>
+<body>
+    
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"
+      integrity="sha512-bcfltY+lNLlNxz38yBBm/HLaUB1gTV6I0e+fahbF9pS6roIdzUytozWdnFV8ZnM6cSAG5EbmO0ag0a/fLZSG4Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    
+    <div id="game-div">
+        <div id="questionprompt">
+            <img id="cardImg" style='width:150px' >
+            <div id="text">
+                <h1 id="cardName"></h1>
+                <p1 id="cardDescription"></p1>
+            </div>
+            
+            <form id='answerForm' 
+            style='margin-top: 50px;margin-left: 15px;visibility:hidden;'>
+                <input type="text" placeholder="Enter Answer" id='answerBox'>
+                <button id="submitBTN">Submit</button>
+            </form>
+        </div>
+
+        <div id="p5">
+            <!-- <h1 id="test">test</h1> -->
+            <script src='rpg.js'></script>
+            <!-- <script src='test.js'></script> -->
+        </div>
+    </div>
+<!--
+    <form id = "sat-questions"
+    
+
+
+-->
+    <button id='back-button'><a href='../../index.html'>Go Back To Homepage</a></button>
+</body>
+</html>
